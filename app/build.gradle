@@ -59,7 +59,7 @@ android {
             buildConfigField "String", "SCHEDULE_FEEDBACK_URL", '"https://frab.cccv.de/en/33C3/public/events/%s/feedback/new"'
         }
         ccceh17 {
-            applicationId "org.ligi.fahrplan"
+            applicationId "name.myigel.fahrplan.eh17"
             buildConfigField "String", "SCHEDULE_URL", '"https://eh17.easterhegg.eu/Fahrplan/schedule.xml"'
             buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://eh17.easterhegg.eu/"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
