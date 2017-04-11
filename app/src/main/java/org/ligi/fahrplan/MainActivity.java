@@ -84,6 +84,7 @@ public class MainActivity extends BaseActivity implements
 
         getSupportActionBar().setTitle(R.string.fahrplan);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        //noinspection RestrictedApi
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         int actionBarColor = ContextCompat.getColor(this, R.color.colorActionBar);
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(actionBarColor));
