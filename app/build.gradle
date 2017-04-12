@@ -61,7 +61,7 @@ android {
         ccceh17 {
             applicationId "name.myigel.fahrplan.eh17"
             buildConfigField "String", "SCHEDULE_URL", '"https://eh17.easterhegg.eu/Fahrplan/schedule.xml"'
-            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://eh17.easterhegg.eu/"'
+            buildConfigField "String", "SCHEDULE_DOMAIN_PART", '"https://eh17.easterhegg.eu"'
             buildConfigField "String", "SCHEDULE_EVENT_PART", '"/events/%1$s.html"'
             buildConfigField "String", "SCHEDULE_PART", '"/Fahrplan"'
             buildConfigField "String", "VENUE", '"WBH"'
