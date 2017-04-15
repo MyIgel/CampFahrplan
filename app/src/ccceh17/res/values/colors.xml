@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="colorPrimary">#ff8600</color>
-    <color name="colorActionBar">#ff8600</color>
+    <color name="eh17Black">#000000</color>
+    <color name="eh17White">#FFFFFF</color>
+    <color name="eh17DarkGrey">#808080</color>
+    <color name="eh17Yellow">#ffe72d</color>
+    <color name="eh17Orange">#ff8600</color>
+    <color name="eh17Red">#d40010</color>
+    <color name="eh17Violet">#9e00a0</color>
+    <color name="eh17Blue">#0049da</color>
+    <color name="eh17Green">#0bc401</color>
+
+    <color name="colorPrimary">@color/eh17Orange</color>
+    <color name="colorActionBar">@color/eh17Orange</color>
     <color name="colorPrimaryDark">#808080</color>
-    <color name="colorAccent">#ff8600</color>
-    <color name="windowBackground">#808080</color>
-    <color name="text_link_color">#ff0bc401</color>
+    <color name="colorAccent">@color/eh17Orange</color>
+    <color name="windowBackground">@color/lightgray</color>
+    <color name="text_link_color">@color/eh17Green</color>
     <color name="multi_choice_background">#402424b3</color>
     <color name="text_link_color_dark">#ff7979d1</color>
     <color name="lightgray">#505050</color>
     <color name="alarm_list_icon_default_fill_color">#ddd</color>
-    <color name="alarm_list_icon_default_stroke_color">#9e00a0</color>
-    <color name="alarm_list_icon_text_color">#000000</color>
-    <color name="lecture_background">#ffffff</color>
+    <color name="alarm_list_icon_default_stroke_color">@color/eh17Violet</color>
+    <color name="alarm_list_icon_text_color">@color/eh17Black</color>
+    <color name="lecture_background">@color/eh17White</color>
     <color name="lecture_detailbar_background">#eee</color>
     <color name="lecture_detailbar_text">#999</color>
-    <color name="schedule_change">#ffd40010</color>
-    <color name="schedule_change_new">#ffd40010</color>
+    <color name="schedule_change">@color/eh17Red</color>
+    <color name="schedule_change_new">@color/eh17Red</color>
     <color name="schedule_change_canceled">#808080</color>
     <color name="schedule_list_header_background">#eee</color>
     <color name="schedule_list_header_text">#eee</color>
